@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png" >
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="">HOME</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="">SEARCH</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                       <img src="Images/library_icon.png">
+                        <a href="">your library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <p class="box-p1">Create your first playlist</p>
+                    <p class="box-p2">It's easy, we,ll help you</p>
+                    <button class="badge">Create playlist</button>
+                </div>
+                <div class="boxes">
+                    <p class="box-p1">Let's find some podcasts to follow</p>
+                    <p class="box-p2">We'll keep you updated on new episodes</p>
+                    <button class="badge">Browse podcasts</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="Images/backward_icon.png">
+                    <img src="Images/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="Images/recently-played.jpeg" class="card-img">
+                    <p class="card-title">What Jhumka ?</p>
+                    <p class="card-info">Pritam, Arijit Singh, Jonita Gandhi</p>
+                </div>
+            </div>
+
+            <h2>Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="Images/Hot-hits.jpeg" class="card-img">
+                    <p class="card-title">Hot Hits Tamil</p>
+                    <p class="card-info">Tune into the Hottest track of kollywood!...</p>
+                </div>
+                <div class="card">
+                    <img src="Images/hot-hits-telugu.jpeg" class="card-img">
+                    <p class="card-title">Hots Hits Telugu</p>
+                    <p class="card-info">Tune into the Hottest track of Tollywood!...</p>
+                </div>
+                <div class="card">
+                    <img src="Images/latest-tamil.jpeg" class="card-img">
+                    <p class="card-title">Latest Tamil</p>
+                    <p class="card-info">New Music from Kollywood. Cover :...</p>
+                </div>
+                <div class="card">
+                    <img src="Images/hot-hits-hindi.jpeg" class="card-img">
+                    <p class="card-title">Hot Hits Hindi</p>
+                    <p class="card-info">Hottest Hindi music served here. Cover :...</p>
+                </div>
+            </div>
+
+
+            <div class="content">
+                <div class="h2"><h2>Today's biggest hits</h2></div>
+                <div class="h3"><h3>Show all</h3></div>
+            </div>
+           
+            <div class="cards-container">
+                <div class="card">
+                    <img src="Images/tollywood-pears.jpeg" class="card-img">
+                    <p class="card-title">Tollywood Pearls</p>
+                    <p class="card-info">The finest set of Telugu music from the past 5...</p>
+                </div>
+                <div class="card">
+                    <img src="Images/megahot.jpeg" class="card-img">
+                    <p class="card-title">Mega Hit Mix</p>
+                    <p class="card-info">Amega mix of 75 favorites from the last...</p>
+                </div>
+                <div class="card">
+                    <img src="Images/pop-shots.jpeg" class="card-img">
+                    <p class="card-title">Pop Shots</p>
+                    <p class="card-info">All your pop favorites. Cover: Sam Smith</p>
+                </div>
+                <div class="card">
+                    <img src="Images/bolly-butur.jpeg" class="card-img">
+                    <p class="card-title">Bollywood Butter</p>
+                    <p class="card-info">B bole toh biggest blockbusters, right...</p>
+                </div>
+            </div>
+
+
+            <div class="content">
+                <div class="h2"><h2>Popular radio</h2></div>
+                <div class="h3"><h3>Show all</h3></div>
+            </div>
+           
+            <div class="cards-container">
+                <div class="card">
+                    <img src="Images/Arijit Singh radio" class="card-img">
+                    <p class="card-title">Arijit Singh Radio</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+                <div class="card">
+                    <img src="Images/SiddhuMoosewala radio" class="card-img">
+                    <p class="card-title">Siddhu Moose Wala...</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+                <div class="card">
+                    <img src="Images/kk radio" class="card-img">
+                    <p class="card-title">KK Radio</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+                <div class="card">
+                    <img src="Images/Pritam radio" class="card-img">
+                    <p class="card-title">Pritam Radio</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="h2"><h2>Shows to try</h2></div>
+                <div class="h3"><h3>Show all</h3></div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="Images/shrimat bhagwadgita.jpeg" class="card-img">
+                    <p class="card-title">SHRIMAD BHAGWADGITA</p>
+                    <p class="card-info">Amit Wadhwa</p>
+                </div>
+                <div class="card">
+                    <img src="Images/garikarapati.jpeg" class="card-img">
+                    <p class="card-title">Garikapati Gyananidhi</p>
+                    <p class="card-info">TeluguOne</p>
+                </div>
+                <div class="card">
+                    <img src="Images/mahabharata.jpeg" class="card-img">
+                    <p class="card-title">MAHABHARATA</p>
+                    <p class="card-info">Sudipta Bhawmik</p>
+                </div>
+                <div class="card">
+                    <img src="Images/speak english.jpeg" class="card-img">
+                    <p class="card-title">Speak English</p>
+                    <p class="card-info">Harry</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="h2"><h2>India's Best</h2></div>
+                <div class="h3"><h3>Show all</h3></div>
+            </div>
+           
+            <div class="cards-container">
+                <div class="card">
+                    <img src="Images/punjabi101.jpeg" class="card-img">
+                    <p class="card-title">Punjabi 101</p>
+                    <p class="card-info">Ultimate 101 Punjabi Hits with Shubh</p>
+                </div>
+                <div class="card">
+                    <img src="Images/indie india.jpeg" class="card-img">
+                    <p class="card-title">India Indie</p>
+                    <p class="card-info">Best of the India Indie scene. Cover - Akanksha...</p>
+                </div>
+                <div class="card">
+                    <img src="Images/equal.jpeg" class="card-img">
+                    <p class="card-title">EQUAL India</p>
+                    <p class="card-info">Listen to Indian women,at full volume. Cover...</p>
+                </div>
+                <div class="card">
+                    <img src="Images/radar india.jpeg " class="card-img">
+                    <p class="card-title">RADAR India</p>
+                    <p class="card-info">Most exciting artists from the indian indie scene....</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="h2"><h2>Fresh new music</h2></div>
+                <div class="h3"><h3>Show all</h3></div>
+            </div>
+           
+            <div class="cards-container">
+                <div class="card">
+                    <img src="Images/latest marathi song.jpeg" class="card-img">
+                    <p class="card-title">Latest Marathi Hits</p>
+                    <p class="card-info">Latest Marathi music handipicked for you.</p>
+                </div>
+                <div class="card">
+                    <img src="Images/latest telugu song.jpeg" class="card-img">
+                    <p class="card-title">Latest Telugu</p>
+                    <p class="card-info">New Music from Tollywood! Cover: BRO</p>
+                </div>
+                <div class="card">
+                    <img src="Images/new music hindi.jpeg" class="card-img">
+                    <p class="card-title">New Music Hindi</p>
+                    <p class="card-info">Catch the latest Hindi songs of the week. Cover...</p>
+                </div>
+                <div class="card">
+                    <img src="Images/latest kannada.jpeg" class="card-img">
+                    <p class="card-title">Latest Kannada</p>
+                    <p class="card-info">Check out the latest hits from Sandalwood! Cover....</p>
+                </div>
+            </div>
+            <br><br><br><br><br>
+
+            <div class="footer">
+                <div class="company">
+                    <p id="footer-main">Company</p>
+                    <p>About</p>
+                    <p>Jobs</p>
+                    <p>For the Record</p>
+                </div>
+                <div class="community">
+                    <p id="footer-main">Communities</p>
+                    <p>For Artists</p>
+                    <p>Developer</p>
+                    <p>Advertising</p>
+                    <p>Investors</p>
+                    <p>Vendors</p>
+                </div>
+                <div class="useful-links">
+                    <p id="footer-main">Useful links</p>
+                    <p>Support</p>
+                    <p>Free Mobile App</p>
+                </div>
+                <div class="footer-logo">
+                    <span class="insta"><i class="fa-brands fa-instagram"></i></span>
+                    <span class="twiter"><i class="fa-brands fa-twitter"></i></span>
+                    <span class="facebook"><i class="fa-brands fa-facebook"></i></span>
+                </div>
+            </div>
+            
+            <div class="end"></div>
+
+            <div class="footer-last">
+                <div class="div1">
+                    <span>Legal</span>
+                    <span>Privacy Center</span>
+                    <span>Privacy Policy</span>
+                    <span>Cookies</span>
+                    <span>About Ads</span>
+                    <span>Accessibility</span>
+                </div>
+                <div class="div2">
+                    <span><i class="fa-solid fa-copyright"></i></span>
+                    <span>2023 Spotify AB</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="music-player">
+            <div class="albums">
+                <div class="album-img">
+                    <img src="Images/recently-played.jpeg">
+                </div>
+                <div class="album-para">
+                    <p class="card-title hide1">What jhumka ?...</p>
+                    <p class="card-info hide1">Pritam, Arijit Singh, Jonita Gandhi</p>
+                </div>
+                <div class="album-icon" >
+                    <span><i class="fa-regular fa-heart hide1"></i></span>
+                    <span><i class="fa-solid fa-chalkboard hide1"></i></span>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="Images/player_icon1.png" class="player-control-icon">
+                    <img src="Images/player_icon2.png" class="player-control-icon">
+                    <img src="Images/player_icon3.png" class="player-control-icon" style="opacity:1; height: 2rem;">
+                    <img src="Images/player_icon4.png" class="player-control-icon">
+                    <img src="Images/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time time">03:33</span>
+                </div>
+            </div>
+            <div class="controls hide1">
+                <i class="fa-regular fa-circle-play control hide1"></i>
+                <i class="fa-solid fa-bars control hide1"></i>
+                <i class="fa-solid fa-computer control hide1"></i>
+                <i class="fa-solid fa-volume-low control hide1"></i>
+                <input type="range" min="0" max="100" step="5" class="control range hide1" style="opacity:1">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
